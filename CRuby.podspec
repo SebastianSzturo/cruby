@@ -33,5 +33,5 @@ Pod::Spec.new do |s|
     "LIBRARY_SEARCH_PATHS" => "#{root}/CRuby",
   }
 
-  s.prepare_command = "rake download_or_build_all"
+  s.prepare_command = "rake"
 end
